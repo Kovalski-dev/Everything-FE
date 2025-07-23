@@ -1,6 +1,9 @@
 .app.default {
-    --bg-color: rgb(195, 195, 201);
+  --bg-color: rgb(195, 195, 201);
+  --inverted-bg-color: rgb(42, 42, 232);
 
-    --primary-color: rgb(9, 9, 116);
-    --secondary-color: rgb(80, 80, 237);
+  --primary-color: rgb(9, 9, 116);
+  --secondary-color: rgb(80, 80, 237);
+  --inverted-primary-color: rgb(84, 197, 84);
+  --inverted-secondary-color: rgb(56, 127, 56);
 }
