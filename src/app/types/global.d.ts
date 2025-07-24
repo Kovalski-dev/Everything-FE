@@ -1,3 +1,5 @@
+declare const __IS_DEV__: boolean;
+
 declare module '*.scss' {
     interface IClassNames {
         [className: string]: string
