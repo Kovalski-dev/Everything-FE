@@ -44,4 +44,5 @@ class ErrorBoundary
   }
 }
 
-export default withTranslation()(ErrorBoundary);
+export default ErrorBoundary;
+
