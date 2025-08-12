@@ -87,6 +87,7 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
     "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-prettier": "^5.0.0",
     "i18next": "^21.6.11",
@@ -95,6 +96,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.15.5",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.2"
   },
   "resolutions": {
