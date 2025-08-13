@@ -6,5 +6,10 @@
   "Сокращенный язык": "En",
   "Страница не найдена": "Page is not found",
   "Произошла непредвиденная ошибка": "Something went wrong",
-  "Обновить страницу": "Reload page"
+  "Обновить страницу": "Reload page",
+  "Введите username": "Enter your username",
+  "Введите пароль": "Enter your password",
+  "Войти": "Sign In",
+  "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
+  "Выйти": "Sign Out"
 }

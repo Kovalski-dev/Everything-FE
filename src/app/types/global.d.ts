@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 declare const __IS_DEV__: boolean;
+declare const __API__: string;
 
 declare module '*.scss' {
     interface IClassNames {
