@@ -22,7 +22,6 @@ export const LangSwitcher = ({ className, short }: LangSwitcherProps) => {
       onClick={toggle}
     >
       {t(short ? 'Сокращенный язык' : 'Язык')}
-
     </Button>
   );
 };
