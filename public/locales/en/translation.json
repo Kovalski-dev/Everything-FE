@@ -12,5 +12,7 @@
   "Введите пароль": "Enter your password",
   "Войти": "Sign In",
   "Вы ввели неверный логин или пароль": "You entered an incorrect username or password",
-  "Выйти": "Sign Out"
+  "Выйти": "Sign Out",
+  "Укажите валюту": "Choose currency",
+  "Укажите страну": "Choose country"
 }

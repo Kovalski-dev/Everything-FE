@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": {"name": "Nikita"}
+  "profile": {
+    "first": "Nikita1",
+    "lastname": "Koval",
+    "age": 25,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Taganrog",
+    "username": "admin",
+    "avatar": null
+  }
 }
