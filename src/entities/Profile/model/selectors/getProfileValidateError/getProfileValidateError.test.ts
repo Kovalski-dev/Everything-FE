@@ -1,6 +1,5 @@
 import { StateSchema } from 'app/providers/StoreProvider';
 import { ValidateProfileError } from 'entities/Profile';
-import { DeepPartial } from '@reduxjs/toolkit';
 import { getProfileValidateErrors } from './getProfileValidateErrors';
 
 describe('getProfileValidateErrors.test', () => {
