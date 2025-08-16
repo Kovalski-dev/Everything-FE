@@ -10,7 +10,7 @@ interface SidebarItemProps {
   collapsed: boolean;
 }
 
-export const SidebarItem = ({ item, collapsed }: SidebarItemProps) => {
+export const SidebarItem = memo(({ item, collapsed }: SidebarItemProps) => {
   const { t } = useTranslation();
 
   return (
@@ -25,4 +25,4 @@ export const SidebarItem = ({ item, collapsed }: SidebarItemProps) => {
       </span>
     </AppLink>
   );
-};
+});

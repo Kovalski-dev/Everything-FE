@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:client": "webpack serve --env port=3000",
+    "start:client": "webpack serve --env port=3000 apiUrl=http://localhost:8000",
     "start:server": "node ./json-server/index.js",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
