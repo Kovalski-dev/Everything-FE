@@ -6,7 +6,7 @@ import Input from 'shared/ui/Input/Input';
 import { memo, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import { loginActions, loginReducer } from 'features/AuthByUsername/model/slice/loginSlice';
-import { loginByUsername } from 'features/AuthByUsername/model/services/loginByUsername';
+import { loginByUsername } from 'features/AuthByUsername/model/services/loginByUsername/loginByUsername';
 import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
 import { getLoginUsername } from '../../model/selectors/getLoginUsername/getLoginUsername';
