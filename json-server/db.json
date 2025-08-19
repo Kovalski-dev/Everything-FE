@@ -81,7 +81,7 @@
       "id": "2",
       "text": "some comment 2",
       "articleId": "1",
-      "userId": "1"
+      "userId": "2"
     },
     {
       "id": "3",
@@ -92,9 +92,18 @@
   ],
   "users": [
     {
-      "id": 1,
-      "username": "Nikita",
-      "password": "123"
+      "id": "1",
+      "username": "The Coon",
+      "password": "123",
+      "role": "ADMIN",
+      "avatar": "https://images.paramount.tech/uri/mgid:arc:imageassetref:shared.southpark.global:5fdc76b1-75d0-11ea-a59c-0a7527021758?quality=0.7&gen=ntrn"
+    },
+    {
+      "id": "2",
+      "username": "Professor Chaos",
+      "password": "123",
+      "role": "USER",
+      "avatar": "https://m.media-amazon.com/images/M/MV5BYTdkNzEyOTUtYjg0Yy00Nzc0LWE2NmEtMzIzOWFmNDM0ZjcxXkEyXkFqcGc@._V1_.jpg"
     }
   ],
   "profile": {
