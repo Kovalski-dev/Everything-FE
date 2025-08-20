@@ -4,6 +4,7 @@ import { ValidateProfileError } from 'entities/Profile';
 import { validateProfileData } from './validateProfileData';
 
 const data = {
+  id: '1',
   username: 'admin',
   age: 25,
   country: Country.Russia,
@@ -12,8 +13,6 @@ const data = {
   city: 'Taganrog',
   currency: Currency.RUB,
 };
-
-console.log('data :>> ', data);
 
 describe('validateProfileData.test', () => {
   test('success', async () => {

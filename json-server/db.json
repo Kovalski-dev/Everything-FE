@@ -7,7 +7,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.05.2025",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -88,12 +90,18 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": 1,
+      "text": "Test",
+      "id": "kaVUpiM"
     }
   ],
   "users": [
     {
       "id": "1",
-      "username": "The Coon",
+      "username": "Kovalski",
       "password": "123",
       "role": "ADMIN",
       "avatar": "https://images.paramount.tech/uri/mgid:arc:imageassetref:shared.southpark.global:5fdc76b1-75d0-11ea-a59c-0a7527021758?quality=0.7&gen=ntrn"
@@ -106,14 +114,28 @@
       "avatar": "https://m.media-amazon.com/images/M/MV5BYTdkNzEyOTUtYjg0Yy00Nzc0LWE2NmEtMzIzOWFmNDM0ZjcxXkEyXkFqcGc@._V1_.jpg"
     }
   ],
-  "profile": {
-    "first": "Nikita",
-    "lastname": "Koval",
-    "age": 25,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Taganrog",
-    "username": "admin",
-    "avatar": null
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Nikita",
+      "lastname": "Koval",
+      "age": 27,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Taganrog",
+      "username": "Kovalski",
+      "avatar": "https://avatars.githubusercontent.com/u/69389602?v=4"
+    },
+    {
+      "id": "2",
+      "first": "Eric",
+      "lastname": "Cartman",
+      "age": null,
+      "currency": "USD",
+      "country": "USA",
+      "city": "South Park",
+      "username": "The Coon",
+      "avatar": "https://images.paramount.tech/uri/mgid:arc:imageassetref:shared.southpark.global:5fdc76b1-75d0-11ea-a59c-0a7527021758?quality=0.7&gen=ntrn"
+    }
+  ]
 }
