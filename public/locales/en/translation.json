@@ -18,5 +18,18 @@
   "Профиль": "Profile",
   "О сайте": "About us",
   "Статьи": "Articles",
-  "Введите текст комментария": "Enter comment text"
+  "Статьи не найдены": "Articles is not found",
+  "Введите текст комментария": "Enter comment text",
+  "Все статьи": "All articles",
+  "Айти": "IT",
+  "Экономика": "Economics",
+  "Наука": "Science",
+  "Сортировать по": "Sort by",
+  "по": "by",
+  "возрастанию": "asc",
+  "убыванию": "desc",
+  "дате создания": "date",
+  "названию": "name",
+  "просмотрам": "views",
+  "Поиск": "Search"
 }

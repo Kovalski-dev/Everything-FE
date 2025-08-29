@@ -3,13 +3,13 @@ import {
   memo, MutableRefObject, ReactNode, UIEvent, useRef,
 } from 'react';
 import { useInfiniteScroll } from 'shared/lib/hooks/useInfiniteScroll/useInfiniteScroll';
-import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
 import { getUIScrollByPath, scrollRestoreActions } from 'features/ScrollRestore';
-import { useThrottle } from 'shared/lib/hooks/useThrottle/useThrottle';
 import { useLocation } from 'react-router-dom';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { useSelector } from 'react-redux';
 import { StateSchema } from 'app/providers/StoreProvider';
+import { useThrottle } from 'shared/lib/hooks/useThrottle/useThrottle';
+import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch';
 import cls from './Page.module.scss';
 
 interface PageProps {
@@ -20,13 +20,10 @@ interface PageProps {
 
 export const Page = memo((props: PageProps) => {
   const { className, children, onScrollEnd } = props;
-
-  const dispatch = useAppDispatch();
-  const { pathname } = useLocation();
-
   const wrapperRef = useRef() as MutableRefObject<HTMLDivElement>;
   const triggerRef = useRef() as MutableRefObject<HTMLDivElement>;
-
+  const dispatch = useAppDispatch();
+  const { pathname } = useLocation();
   const scrollPosition = useSelector(
     (state: StateSchema) => getUIScrollByPath(state, pathname),
   );
@@ -54,10 +51,8 @@ export const Page = memo((props: PageProps) => {
       className={classNames(cls.Page, {}, [className])}
       onScroll={onScroll}
     >
-      {/* ↓↓↓ Контент страницы ↓↓↓ */}
       {children}
-      {/* ↓↓↓ Невидимый для пользователя блок, который тригерит колбэк ↓↓↓ */}
-      <div ref={triggerRef} />
+      {onScrollEnd ? <div className={cls.trigger} ref={triggerRef} /> : null}
     </section>
   );
 });
